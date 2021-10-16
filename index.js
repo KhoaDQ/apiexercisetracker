@@ -18,7 +18,10 @@ const swaggerOptions = {
       version: "1.0.0",
       description: "Customer API Information",
     },
-    servers: [{ url: "http://localhost:5000" }],
+    servers: [
+      { url: "https://apiexercisetrackernodejs.herokuapp.com" },
+      { url: "http://localhost:5000" },
+    ],
   },
   apis: ["./routes/*.js"],
 };
